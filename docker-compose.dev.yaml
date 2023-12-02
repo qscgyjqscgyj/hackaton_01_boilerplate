@@ -11,7 +11,7 @@ services:
       - DATABASE_URL=postgres://postgres:password@db:5432/mydb
       - PORT=3666
     depends_on:
-      - db
+      - hackaton-db
     volumes:
       - ./server:/usr/src/app
       - /usr/src/app/node_modules
