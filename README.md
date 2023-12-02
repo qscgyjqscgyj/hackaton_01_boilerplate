@@ -13,6 +13,8 @@ Intel Mac: https://desktop.docker.com/mac/main/amd64/Docker.dmg?utm_source=docke
 Install yarn:
     
 ```
+    nvm install 18
+    nvm use 18
     npm i -g yarn
 ```
 
