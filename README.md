@@ -28,5 +28,6 @@ To run the clientexecute the following command:
 
 ```
     cd client
+    yarn install
     yarn start
 ```
